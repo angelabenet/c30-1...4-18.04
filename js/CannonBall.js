@@ -42,8 +42,7 @@ class CannonBall {
       this.trajectory.push(position);
     }
 
-    for (var i = 0; i < this.trajectory.length; i++) {
-      image(this.image, this.trajectory[i][0], this.trajectory[i][1], 10, 10);
+// adcionar a imagem da bola
     }
   }
 }
